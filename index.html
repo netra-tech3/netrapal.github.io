@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f260a5d7f6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-calendar-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p><span>Hello!</span> My Self</p>
+                <br>
+                <h1> Netrapal Singh.</h1>
+                <p class="self"> A passionate MERN stack developer with a robust background<br> in building dynamic and
+                    responsive web applications. </p>
+            </div>
+        </div>
+    </div>
+
+    <!--------------about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+
+                    <img src="images/user.png" alt="">
+
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I am a Computer Science student at JSS Academy of Technical Education, Noida, I am passionate
+                        about learning new technologies and innovations as well as solving real-world problems.<br>
+                        Currently, I am working as a MERN Stack Developer where I build scalable and reliable web
+                        applications.
+                        I am also working on machine learning concepts and building multiple machine learning models.
+                        <br>I have participated in coding rounds and contests in platforms like Code chef and
+                        leetcode(C++ as a core language)<br>
+                        I am always eager to take on new challenges and contribute to new innovations and impactful
+                        solutions
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+                    <div class="tab-contents active-tab " id="skills">
+                        <ul class="skills-list">
+                            <li> <img
+                                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+                                    alt="html5" width="40" height="40">HTML</li>
+                            <li> <img
+                                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+                                    alt="css3" width="40" height="40" />CSS3 </li>
+                            <li> <img
+                                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                                    alt="javascript" width="40" height="40" />JAVASCRIPT</li>
+                            <li><img src="https://img.icons8.com/?size=100&id=123603&format=png&color=000000" alt=""
+                                    width="40" height="40">REACT JS</li>
+                            <li><img src="https://img.icons8.com/?size=100&id=54087&format=png&color=000000" alt=""
+                                    width="40" height="40">NODE JS</li>
+                            <li><img src="https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png&color=000000"
+                                    alt="" width="40" height="40">MONGO DB</li>
+                            <li><img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
+                                    alt="tailwind" width="40" height="40" />TAILWIND CSS</li>
+
+                                    <li><img style="width: 40px;"
+                                        src="https://img.icons8.com/?size=100&id=58586&format=png&color=000000" alt="" width="40"
+                                        height="40"> Machine learning</li>
+    
+
+
+                        </ul>
+                        <ul class="skills-list">
+                            <li><img src="https://img.icons8.com/?size=100&id=38561&format=png&color=000000" alt=""
+                                    width="40" height="40">POSTGRES SQL</li>
+                            <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+                                    alt="python" width="40" height="40" />PYTHON</li>
+                            <li><img style="width: 40px;"
+                                    src="//img.icons8.com/?size=100&id=40669&format=png&color=000000" alt="" width="40"
+                                    height="40"> C++</li>
+
+
+                            <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg"
+                                    alt="c" width="40" height="40" />C</li>
+                            <li> <img src="https://img.icons8.com/?size=100&id=33285&format=png&color=000000" alt=""
+                                    width="40" height="40">AGORITHMS</li>
+                            <li><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git"
+                                    width="40" height="40" />GIT</li>
+                            <li><img src="https://img.icons8.com/?size=100&id=63777&format=png&color=000000" alt="git"
+                                    width="40" height="40" />GITHUB</li>
+
+                                    <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg"
+                                        alt="flask" width="40" height="40" />Flask</li>
+                        </ul>
+
+                    </div>
+
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <h3 class="heading">Bachelor of Technology in Computer Science & Engineering</h3>
+                            </li>
+                            <li>
+                                <p><strong>JSS Academy of Technical Education Noida</strong></p>
+                            </li>
+                            <li>
+                                <p>December 2021 - June 2025</p>
+                            </li>
+                            <li>
+                                <p>Relevant coursework: Data Structures, Algorithms, Databases, Web Development</p>
+                            </li>
+                            <hr class="break">
+
+
+                            <li>
+                                <h3 class="heading2">Class 12 (Higher Secondary Certificate)</h3>
+                            </li>
+                            <li>
+                                <p><strong>Dr Virendra Swarup Education Center</strong></p>
+                            </li>
+
+                            <li>
+                                <p>Major subjects: Physics, Chemistry, Mathematics</p>
+                            </li>
+                            <hr class="break">
+
+
+                            <li>
+                                <h3 class="heading3">Class 10 (Secondary School Certificate)</h3>
+                            </li>
+                            <li>
+                                <p><strong>Example Secondary School</strong></p>
+                            </li>
+                            <li>
+                                <p>Major subjects: Mathematics, Science, English, Social Studies</p>
+                            </li>
+                        </ul>
+
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!------services-->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My Services</h1>
+            <div class="services-list">
+
+                <div>
+                    <i class="fa-brands fa-codepen"></i>
+                    <h2>Web Development</h2>
+                    <p> Create unique, visually appealing websites tailored to your specific requirements and
+                        preferences.<br>
+                        Ensure your websites look great and function seamlessly on all devices, including desktops,
+                        tablets, and smartphones..</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Web Designing</h2>
+                    <p>Craft intuitive and engaging interfaces that enhance user experience.<br>
+                        Utilize popular front-end frameworks and libraries such as React, Angular for efficient and
+                        scalable web development.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>C++ developer</h2>
+                    <p>Develop efficient algorithms and data structures in C++ for tasks such as sorting, searching, and
+                        optimization.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!------Portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>
+                            Khana_Khazana </h3>
+                        <p>A full Stack Food ordering website with authentication adn payment method</p>
+                        <a href="https://github.com/netra-tech3/Khana_khazana"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>
+                            Temp_trend
+                        </h3>
+                        <p>About
+                            Temp_Trend is developed to predict average temperature increase based on various environmental factors using a machine learning model. The model is trained using historical data and is capable of providing temperature predictions for future years based on user inputs.</p>
+                        <a href="https://github.com/netra-tech3/Temp_Trend"><i class="fa-solid fa-link"></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>
+                            Codetalk
+                        </h3>
+                        <p>A fullyfunctionsl AI Text bot using Gemini API</p>
+                        <a href="https://github.com/netra-tech3/Codex"><i class="fa-solid fa-link"></i></a>
+                    </div>
+
+                </div>
+            </div>
+            <a href="https://github.com/netra-tech3" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-------COntact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p ><i  class="fa-regular fa-paper-plane"></i>Email Id: netrapalsingh7256@gmail.com </p>
+                    <P><i class="fa-solid fa-phone-volume"></i>Phone No : 9198312580</P>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100022010213593"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/ne_trapal/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/netrapal-singh-7b65901b3/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+                    </form>
+                    <span id="msg"></span>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> Copyright @ Netrapal . Made with web</p>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+
+        }
+
+
+
+
+
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwFPm-5V5Qd7ANuXdn-jTAdmaUT4WeaqJkazpzJmkFhB_sAJCFuR2kXgOs15sGdjSII_w/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
